@@ -9,3 +9,7 @@
 - mobile 
   - angular 版 web app
   - vue.js node.js 实践下技术
+
+tips：
+（1）第三方帐号登录 QQ，WX，微博，支付宝
+（2）分享功能 
