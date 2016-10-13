@@ -1,0 +1,151 @@
+body{
+	width: 100%;
+	height: 100%;
+	/*background:-webkit-gradient(linear,left top ,left bottom, from(#CC99FF),to(#FFF)) no-repeat;*/
+	
+
+	position: absolute;
+	background-image: url(../images/bg.png);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	min-height: 600px;
+}
+input{
+	display: block;
+}
+@width:900px;
+.header{
+	width: @width;
+	margin: 2% auto 2% auto;	
+	#logo{
+		width: 72px;
+		height: 72px;		
+	}
+}
+
+
+#container{
+	width: @width;
+	margin: 0% auto;
+	position: relative;	
+	/*background-color: #FFF;*/
+	#banner{	
+		background-color: #CCFF66;	
+		 width: 100%;
+		 height: 100px;
+		 img{
+		 	float: right;
+		 	width: 90px;
+		 }
+
+	}
+	#content{
+		width: 100%;
+		margin: 2% auto 5% auto;
+		position: relative;
+		#left{
+			width: 61.8%;
+			height: 100%;
+			margin: 0% 5% 0% 0%;
+		}
+		#right{
+			width: 220px;			
+			position: absolute;
+			top:5%;
+			right: 5%;
+			.login{
+				  width: 60%;
+				  margin: 2% auto;				 
+			}
+			.register{				
+				width: 60%;
+				margin: 2% auto;
+				background-color: #FF0000;				
+			    background-image: -moz-linear-gradient(top, #FF0000, #FF6666);
+			    background-image: -ms-linear-gradient(top, #FF0000, #FF6666);
+			    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF0000), to(#FF6666));
+			    background-image: -webkit-linear-gradient(top, #FF0000, #FF6666);
+			    background-image: -o-linear-gradient(top, #FF0000, #FF6666);
+			    background-image: linear-gradient(top, #FF0000, #FF6666);   
+			    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000', endColorstr='#FF6666', GradientType=0);
+			    border-color: #FF6666 #FF6666 #FF6666;
+			    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+			    *background-color: #FF6666;
+			    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+			}
+
+			.r_pwd{
+				text-align: right;
+				font-size: 12px;
+				color: blue;				
+				a{
+					color: blue;
+				}
+				a:hover{
+					color: blue;
+				}
+			}
+			.title{
+				line-height: 40px;
+				text-align: center;
+				font-weight: bold;
+				display: inline-block;				
+				.helppic{
+					width: 20%;
+					float: right;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	
+}
+
+.footer{
+	width: 70%;	
+	position: absolute;	
+	left: 30px;
+	bottom: 20px;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+@media screen and (max-width:900px){
+	body{
+		background-image: url(../images/bg-900.png);
+		min-height: 560px;
+	}
+
+	.header{
+		width: 100%;
+	}
+	#container{
+		width: 100%;
+
+		z-index: 2;
+		#content{
+			width: 100%;
+			
+			#left{
+				display: none;
+			}
+			#right{
+				position: relative;
+				margin: 5% auto 5% auto;
+				top:auto;
+				right: auto;				
+			}
+		}
+	}
+	.footer{
+		width: 100%;
+		left:auto;
+		font-size: 13px;
+	}
+}

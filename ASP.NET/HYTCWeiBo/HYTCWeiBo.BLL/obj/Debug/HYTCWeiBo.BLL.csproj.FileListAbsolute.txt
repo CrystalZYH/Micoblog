@@ -1,0 +1,22 @@
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.BLL.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.BLL.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.DAL.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.Model.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.DAL.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.Model.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\obj\Debug\HYTCWeiBo.BLL.csprojResolveAssemblyReference.cache
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\obj\Debug\HYTCWeiBo.BLL.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\obj\Debug\HYTCWeiBo.BLL.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.DBtility.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.DBtility.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.BLL.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.BLL.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.DAL.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.Model.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.DBtility.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.DAL.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.Model.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\bin\Debug\HYTCWeiBo.DBtility.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\obj\Debug\HYTCWeiBo.BLL.csprojResolveAssemblyReference.cache
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\obj\Debug\HYTCWeiBo.BLL.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.BLL\obj\Debug\HYTCWeiBo.BLL.pdb

@@ -1,0 +1,257 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.dlweibo {
+  width: 580px;
+  border-style: none;
+  border-width: 0px;
+  border-color: #FFF;
+  margin: 0 auto;
+}
+.item {
+  width: 578px;
+  margin: 10px auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  word-break: break-all;
+}
+.item .weiboId {
+  visibility: hidden;
+  position: absolute;
+  left: 180px;
+}
+.item .authorId {
+  visibility: hidden;
+  position: absolute;
+  left: 230px;
+}
+.item .item-top .item-top-top {
+  width: 100%;
+}
+.item .item-top .item-top-top .isOriginal {
+  color: #000;
+  float: left;
+}
+.item .item-top .item-top-top .trTime {
+  color: #7cb4a3;
+  float: right;
+}
+.item .item-top .item-top-left {
+  float: left;
+  width: 10%;
+  clear: both;
+}
+.item .item-top .item-top-left .trAuthorId {
+  visibility: hidden;
+  position: absolute;
+}
+.item .item-top .item-top-left .truserlogo {
+  width: 48px;
+  /*height: 48px;*/
+}
+.item .item-top .item-top-right {
+  float: right;
+  width: 90%;
+}
+.item .item-top .item-top-right .trAuthorName {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "微软雅黑", "宋体";
+  clear: none;
+  margin-left: 5px;
+}
+.item .item-top .item-top-right .trContent {
+  color: #33463f;
+}
+.item .item-body {
+  width: 100%;
+  clear: both;
+  margin: 0 auto;
+  position: relative;
+}
+.item .item-body .item-left {
+  float: left;
+  width: 10%;
+  min-width: 50px;
+  margin-bottom: 8px;
+}
+.item .item-body .item-left .userlogo {
+  width: 48px;
+  height: 48px;
+}
+.item .item-body .item-left .userlogo img {
+  width: 48px;
+  height: 48px;
+}
+.item .item-body .item-left .btnadd {
+  font: bold 13px Arial;
+  color: #FFF;
+  background: -webkit-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: -ms-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: -o-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  border: 1px solid #ffce82;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 0px 5px 0px 4px;
+}
+.item .item-body .item-right {
+  width: 90%;
+  height: auto;
+  float: right;
+  /*background-color: #9999FF;*/
+  margin-bottom: 8px;
+}
+.item .item-body .item-right .authorName {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "微软雅黑", "宋体";
+  clear: none;
+  margin-left: 5px;
+}
+.item .item-body .item-right .authorName a {
+  color: #000;
+}
+.item .item-body .item-right .authorName a:hover {
+  color: #6699FF;
+}
+.item .item-body .item-right .wbcontent {
+  font-size: 14px;
+  color: #33463f;
+  line-height: 23px;
+  padding: 4px 0 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item .item-body .item-footer {
+  clear: both;
+  width: 100%;
+  min-height: 30px;
+  height: auto;
+  margin-top: 10px;
+}
+.item .item-body .item-footer .createtime {
+  display: inline;
+  color: #7cb4a3;
+  font-size: 13px;
+}
+.item .item-body .item-footer ul {
+  display: inline;
+  float: right;
+}
+.item .item-body .item-footer ul li {
+  display: inline-block;
+  margin-right: 4px;
+}
+.item .item-body .item-footer ul li .itembtn,
+.item .item-body .item-footer ul li #btnTrans {
+  width: 35px;
+  border-style: none;
+  background-color: #fff;
+  color: #009933;
+}
+.item .item-body .item-footer ul li .number {
+  font-size: 13px;
+  margin-left: -6px;
+  color: #009933;
+}
+.item .item-body .item-footer ul li .zan .zanImg {
+  display: none;
+}
+.item .item-body .item-footer ul li .transmit .trancontent {
+  display: none;
+}
+.item .item-body .item-footer ul li .btnReview,
+.item .item-body .item-footer ul li .btnOpenReview {
+  border-style: none;
+  background-color: #fff;
+  color: #009933;
+}
+.item .tr {
+  width: 94%;
+}
+.item .reviewlistbox {
+  display: none;
+  width: 100%;
+}
+.item .reviewlistbox .WB_arrow {
+  width: 22px;
+  position: absolute;
+  margin: -13px 0 0;
+  right: 4.5%;
+}
+.item .reviewlistbox .WB_arrow .S_line1_c,
+.item .reviewlistbox .WB_arrow .S_bg4_c {
+  font-family: "SimSun";
+  font-size: 16px;
+  line-height: 1.631;
+  height: 19px;
+  overflow: hidden;
+}
+.item .reviewlistbox .WB_arrow .S_line1_c {
+  color: #dae0d2;
+  font-weight: bold;
+}
+.item .reviewlistbox .WB_arrow .S_bg4_c {
+  color: #fff;
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  z-index: 5;
+}
+.item .reviewlistbox .reviewlistcontent {
+  width: 92%;
+  border: 1px solid #dae0d2;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0px auto 10px auto;
+}
+.item .reviewContent {
+  display: none;
+  width: 80%;
+  line-height: 15px;
+  font-size: 13px;
+  border: 1px solid #dae0d2;
+  margin-left: 12px;
+}
+.item .btnPubReview {
+  display: none;
+  border-style: none;
+  color: white;
+  background-color: #76BFF8;
+  border-radius: 4px;
+  height: 24px;
+}
+.gvrelist {
+  border-style: none;
+  border-color: #FFF;
+  width: 100%;
+}
+.revitem {
+  font-size: 12px;
+  border-bottom: 1px solid #e7edf0;
+  min-height: 25px;
+  width: 100%;
+}
+.revitem .reviewid {
+  visibility: hidden;
+  position: absolute;
+}
+.revitem .reauthorname {
+  display: inline;
+  color: #009933;
+  margin: 0px 5px 0px 5px;
+}
+.revitem .recontent {
+  display: inline;
+  color: #33463f;
+  width: 100%;
+  word-break: break-all;
+}
+.revitem .retime {
+  display: inline;
+  color: gray;
+}

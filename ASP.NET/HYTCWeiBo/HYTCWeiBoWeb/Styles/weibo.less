@@ -1,0 +1,281 @@
+body{
+	width: 100%;
+	overflow-x:hidden;
+	margin: 0;
+	padding: 0;
+}
+.dlweibo{
+	width:580px;	
+	border-style: none;
+	border-width: 0px;
+	border-color: #FFF;
+	margin: 0 auto;
+}
+.item{
+	width: 578px;
+	margin: 10px auto;
+	border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+	word-break: break-all;
+	.weiboId{
+		visibility: hidden;
+			position: absolute;
+			left:180px;
+	}
+	.authorId{
+			visibility: hidden;
+			position: absolute;
+			left:230px;
+	}
+	.item-top{
+		.item-top-top{
+			width: 100%;
+			.isOriginal{			
+				color: #000;
+				float: left;
+			}
+			.trTime{
+				color: #7cb4a3;
+				float: right;
+			}
+		}
+
+		.item-top-left{
+			float: left;
+			width: 10%;
+			clear: both;
+			.trAuthorId{			
+				visibility: hidden;
+				position: absolute;
+			}
+			.truserlogo{
+				width: 48px;
+				/*height: 48px;*/
+			}
+		}
+		.item-top-right{
+			float: right;
+			width: 90%;
+			.trAuthorName{
+				font-size: 16px;
+				font-weight: bold;
+				font-family: "微软雅黑","宋体";
+				clear: none;
+				margin-left: 5px;
+			}
+			.trContent{
+				color: #33463f;
+			}
+
+		}
+
+	}
+	
+	.item-body{
+		width: 100%;
+		clear: both;
+		margin: 0 auto;
+		position: relative;
+		.item-left{
+			float:left;
+			width: 10%;
+			min-width: 50px;
+			margin-bottom: 8px;
+			.userlogo{
+				width: 48px;
+				height: 48px;
+				img{
+					width: 48px;
+					height: 48px;
+				}
+			}
+			.btnadd{
+				font: bold 13px Arial;
+				color: #FFF;
+				background:-webkit-linear-gradient(top, rgba(255,184,71,1) 0%,rgba(255,162,16,1) 100%);
+				background:-ms-linear-gradient(top, rgba(255,184,71,1) 0%,rgba(255,162,16,1) 100%);
+				background:-o-linear-gradient(top, rgba(255,184,71,1) 0%,rgba(255,162,16,1) 100%);
+				background:linear-gradient(top, rgba(255,184,71,1) 0%,rgba(255,162,16,1) 100%);
+				border:1px solid #ffce82;
+				-webkit-border-radius: 2px;
+				-ms-border-radius: 2px;
+				-o-border-radius: 2px;
+				border-radius: 2px;
+				padding: 0px 5px 0px 4px;
+			}
+			
+		}
+		.item-right{
+			width: 90%;
+			height: auto;
+			float:right;
+			/*background-color: #9999FF;*/
+			margin-bottom: 8px;
+				.authorName{
+					font-size: 16px;
+					font-weight: bold;
+					font-family: "微软雅黑","宋体";
+					clear: none;
+					margin-left: 5px;
+					a{
+						color: #000;						
+					}
+					a:hover{
+						color: #6699FF;
+					}
+
+				}
+				.wbcontent{
+					font-size: 14px;
+					color: #33463f;
+					line-height: 23px;
+					padding: 4px 0 4px;
+					font-family:  Arial,Helvetica,sans-serif;
+				}
+		} 
+		.item-footer{
+			clear: both;
+			width: 100%;
+			min-height: 30px;		
+			height: auto;
+			margin-top: 10px;
+			.createtime{
+				display: inline;
+				color: #7cb4a3;
+				font-size: 13px;
+			}
+			ul{
+				display: inline;
+				float:right;
+				li{
+					display: inline-block;
+					margin-right: 4px;				
+					.itembtn,#btnTrans{
+						width: 35px;
+						border-style: none;
+						background-color: #fff;
+						color: #009933;
+					}
+					.number{
+						font-size: 13px;
+						margin-left: -6px;
+						color: #009933;
+					}
+					.zan{
+						.zanImg{
+							display: none;
+						}
+					}
+					.transmit{
+
+						.trancontent{
+							display: none;
+						}
+					}
+					.favorite{
+
+					}
+					.btnReview,.btnOpenReview{
+						border-style: none;
+						background-color: #fff;
+						color: #009933;
+					}
+
+				}			
+			}
+		}	
+	}
+
+	.tr{
+		width: 94%;
+	}	
+
+	.reviewlistbox{
+		display: none;
+		width: 100%;
+		.WB_arrow{
+			width: 22px;
+			position: absolute;
+			margin: -13px 0 0;
+			right: 4.5%;
+			.S_line1_c,.S_bg4_c{
+				font-family:"SimSun";
+				font-size: 16px;
+				line-height: 1.631;
+				height: 19px;
+				overflow: hidden;			
+			}
+			.S_line1_c{
+				color: #dae0d2;
+				font-weight: bold;
+			}
+			.S_bg4_c{
+			  color: #fff;
+			  position: absolute;
+			  top: 1px;
+			  right: 5px;
+			  z-index: 5;
+			}
+		}
+
+		.reviewlistcontent{
+			width: 92%;
+			border: 1px solid #dae0d2;
+			border-radius: 3px;
+			padding: 10px;
+			margin:0px auto 10px auto;
+		}
+
+	}
+	.reviewContent{
+		display:none;
+		width:80%;	
+		line-height:15px;
+		font-size: 13px;
+		border: 1px solid #dae0d2;
+		margin-left: 12px;
+	}
+
+	.btnPubReview{
+		display: none;
+	  	border-style: none;
+	  	color: white;
+	  	background-color: #76BFF8;
+	  	border-radius: 4px;
+	  	height: 24px;
+	}
+	
+}
+
+
+//reviewlist.aspx
+.gvrelist{
+	border-style: none;
+	border-color: #FFF;
+	width: 100%;
+}
+.revitem{
+	  font-size: 12px;
+	  border-bottom: 1px solid rgba(231, 237, 240, 1);
+	  min-height: 25px;
+	  width: 100%;
+	.reviewid{
+		visibility: hidden;
+		position: absolute;
+	}
+	.reauthorname{
+		display: inline;
+		color: #009933;
+		margin: 0px 5px 0px 5px;
+	}
+	.recontent{
+		display: inline;
+		color: #33463f;
+		width: 100%;
+		word-break: break-all;		
+		
+	}
+	.retime{
+		display: inline;
+		color: gray;
+	}
+}

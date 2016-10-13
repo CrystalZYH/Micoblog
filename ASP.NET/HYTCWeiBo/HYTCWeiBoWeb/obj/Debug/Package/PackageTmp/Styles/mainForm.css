@@ -1,0 +1,391 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  background-color: #F0F8FE;
+  overflow-x: hidden;
+}
+.wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  /*background:-webkit-gradient(linear,left top ,left bottom, from(#CC99FF),to(#FFF)) no-repeat;*/
+  background: url(../images/bg_2.png) no-repeat;
+  background-position: -117px 200px;
+  background-color: #F0F8FE;
+}
+.wrap .headerbox {
+  position: fixed;
+  width: 100%;
+  height: 46px;
+  z-index: 80;
+}
+.wrap .headerbox .headerfix {
+  position: fixed;
+  width: 100%;
+  height: 46px;
+  top: 0;
+  left: 0;
+  background-color: #B2CDE3;
+  z-index: 99;
+  box-shadow: 1px solid #OOO;
+  -webkit-box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.3);
+}
+.wrap .headerbox .headerfix ul {
+  width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrap .headerbox .headerfix ul li {
+  display: inline-block;
+  opacity: 1;
+}
+.wrap .headerbox .headerfix ul li #logo {
+  width: 36px;
+  margin-top: 5px;
+}
+.wrap .headerbox .headerfix ul li .logo-text {
+  width: 115px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  color: purple;
+  font-family: "幼圆";
+  font-weight: bold;
+  position: absolute;
+  top: 17px;
+}
+.wrap .headerbox .headerfix ul li #txtsearchInfo {
+  position: absolute;
+  left: 170px;
+  top: 14px;
+}
+.wrap .headerbox .headerfix ul li #ibtnSearch {
+  position: absolute;
+  left: 360px;
+  width: 28px;
+  height: 28px;
+  top: 15px;
+  cursor: pointer;
+}
+.wrap .headerbox .headerfix ul li #ibtnPhoto {
+  left: 400px;
+  display: none;
+}
+.wrap .headerbox .headerfix ul li #ibtnMessage {
+  left: 450px;
+  display: none;
+}
+.wrap .headerbox .headerfix ul li #ibtnTalk {
+  left: 500px;
+  display: none;
+}
+.wrap .headerbox .headerfix ul li #ibtnFavs {
+  /*left:550px;*/
+  left: 430px;
+}
+.wrap .headerbox .headerfix ul li .userid_t {
+  position: absolute;
+  top: 15px;
+  /*left:600px;*/
+  left: 490px;
+}
+.wrap .headerbox .headerfix ul li #labuserId {
+  position: absolute;
+  /*left:680px;*/
+  left: 572px;
+  top: 13px;
+  border-style: none;
+  background-color: inherit;
+  cursor: default;
+}
+.wrap .headerbox .headerfix ul li #ibtnExit {
+  left: 780px;
+  z-index: 9999;
+}
+.wrap .headerbox .headerfix ul li .liitem {
+  position: absolute;
+  top: 3px;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wrap .headerbox .headerfix ul li .liitem:hover {
+  -webkit-box-shadow: 0 0 7px 1px rgba(88, 7, 134, 0.3);
+  -moz-box-shadow: 0 0 7px 1px rgba(88, 7, 134, 0.3);
+  -ms-box-shadow: 0 0 7px 1px rgba(88, 7, 134, 0.3);
+  box-shadow: 0 0 7px 1px rgba(88, 7, 134, 0.3);
+}
+.wrap .headerbox .headerfix .flowerpic {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  width: 400px;
+  z-index: 88;
+}
+.wrap #container {
+  width: 980px;
+  height: auto;
+  min-height: 1980px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 2px 2px rgba(215, 239, 157, 0.6);
+  -moz-box-shadow: 0 0 2px 2px rgba(215, 239, 157, 0.6);
+  -ms-box-shadow: 0 0 2px 2px rgba(215, 239, 157, 0.6);
+  box-shadow: 0 0 2px 2px rgba(215, 239, 157, 0.6);
+}
+.wrap #container .top {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 440px;
+  background: #ffffff url(../images/bg_4.jpg) 0 0 no-repeat;
+  background-color: #fff;
+}
+.wrap #container .top .user-logos {
+  position: relative;
+  width: 180px;
+  left: 30px;
+  top: 187px;
+  /*border: 2px solid #FFF;*/
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+.wrap #container .top .user-logos #userlogo {
+  width: 100%;
+  -webkit-border-radius: 2px;
+}
+.wrap #container .top .user-logos #userlogo img {
+  width: 100%;
+  -webkit-border-radius: 2px;
+}
+.wrap #container .top .user-logos ul {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+.wrap #container .top .user-logos ul li {
+  display: inline-block;
+  width: 52px;
+  height: 38px;
+  font-size: 0;
+}
+.wrap #container .top .user-logos ul li #focus {
+  font-size: 14px;
+  border-right: 1px solid #BFBFBF;
+}
+.wrap #container .top .user-logos ul li #fans {
+  font-size: 14px;
+  border-right: 1px solid #BFBFBF;
+}
+.wrap #container .top .user-logos ul li #weibo {
+  font-size: 14px;
+}
+.wrap #container .top .user-logos ul li #focus span:hover,
+.wrap #container .top .user-logos ul li #fans span:hover,
+.wrap #container .top .user-logos ul li #weibo span:hover {
+  background-color: #DFEAFE;
+  cursor: pointer;
+}
+.wrap #container .top .user-info {
+  position: relative;
+  top: 76px;
+  left: 230px;
+}
+.wrap #container .top .user-info #btnmasterName {
+  position: relative;
+  left: 0px;
+  font-size: 30px ;
+  line-height: 30px;
+  color: #33463f;
+  border-style: none;
+  background-color: inherit;
+  cursor: default;
+}
+.wrap #container .top .user-info .hiddenInfo {
+  display: inline;
+  visibility: hidden;
+}
+.wrap #container .top .user-info #labpWords {
+  position: relative;
+  font-size: 13px ;
+  width: 100%;
+  height: 18px;
+  color: #808080;
+  margin: 4px 10px 7px 10px;
+  display: block;
+  letter-spacing: 1px;
+}
+.wrap #container .top .user-info #labsex {
+  position: relative;
+  color: #FF33FF;
+  font-size: 15px ;
+  height: 18px;
+  width: 40px;
+  margin-right: 20px;
+  margin-left: 5px;
+  /*border-right: 1px solid gray;*/
+}
+.wrap #container .top .user-info #labcolloge {
+  position: relative;
+  display: inline;
+  color: #33463f;
+  height: 18px;
+  font-size: 15px ;
+  margin-bottom: 5px;
+}
+.wrap #container .top #editinfo {
+  /*position: relative;*/
+  top: 81px;
+  left: 230px;
+  /*display: inline-block;*/
+}
+.wrap #container .top #editinfo #btnEdit {
+  font: bold 13px ;
+  color: #FFF;
+  background: -webkit-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: -ms-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: -o-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  border: 1px solid #ffce82;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 0px 5px 0px 4px;
+}
+.wrap #container .top #editinfo #btnAddFocus {
+  font: bold 13px Arial;
+  color: #FFF;
+  background: -webkit-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: -ms-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: -o-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  border: 1px solid #ffce82;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 0px 5px 0px 4px;
+}
+.wrap #container #left-weibo {
+  width: 60%;
+  margin-left: 5%;
+  position: relative;
+}
+.wrap #container #left-weibo #publish {
+  margin-bottom: 10px;
+}
+.wrap #container #left-weibo #publish #pubImg {
+  width: 250px;
+  display: inline-block;
+}
+.wrap #container #left-weibo #publish .pubInfo {
+  display: inline-block;
+  font-size: 13px;
+  font-family: "微软雅黑";
+  margin-bottom: 5px;
+}
+.wrap #container #left-weibo #publish .pubInfo span {
+  font-size: 20px;
+  line-height: 25px;
+  font-family: Constantia, Georgia;
+}
+.wrap #container #left-weibo #publish .txtPubContent {
+  width: 90%;
+  height: 60px;
+  margin: 0px auto 10 auto;
+  font-size: 14px;
+  overflow: hidden;
+}
+.wrap #container #left-weibo #publish #btnPublish {
+  border-style: none;
+  color: white;
+  background-color: #76BFF8;
+  border-radius: 4px;
+  height: 25px;
+  font-size: 18px;
+  width: 70px;
+  letter-spacing: 2px;
+  /* margin-left: 75%; */
+}
+.wrap #container #left-weibo #weiboselect > div {
+  display: inline;
+  margin-left: 10px;
+  color: #6666FF;
+  cursor: pointer;
+}
+.wrap #container #left-weibo #weiboselect > div:hover {
+  color: #6600CC;
+}
+.wrap #container #left-weibo .selected {
+  background-color: yellow;
+}
+.wrap #container #left-weibo .weibo-content {
+  font-size: 13px;
+  margin-top: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.wrap .footer {
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -40px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 37px;
+  color: gray;
+}
+.wrap .transmitbgbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  z-index: 9999;
+}
+.wrap .transmitbgbox .transcontainer {
+  width: 600px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -300px;
+}
+.wrap .transmitbgbox .transcontainer #txtTransContent {
+  width: 100%;
+  height: 80px;
+}
+.wrap .transmitbgbox #transCancle,
+.wrap .transmitbgbox #transYes {
+  display: inline;
+  font: bold 13px ;
+  color: #FFF;
+  background: -webkit-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: -ms-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: -o-linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  background: linear-gradient(top, #ffb847 0%, #ffa210 100%);
+  border: 1px solid #ffce82;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 0px 5px 0px 4px;
+}

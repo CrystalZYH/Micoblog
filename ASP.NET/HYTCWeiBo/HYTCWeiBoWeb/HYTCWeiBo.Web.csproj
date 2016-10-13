@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A4C023D-B205-4F6B-A8A7-A1A7E6122F9F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HYTCWeiBoWeb</RootNamespace>
+    <AssemblyName>HYTCWeiBoWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdLogin.aspx" />
+    <Content Include="Admin\AdMainForm.aspx" />
+    <Content Include="Admin\Charts.aspx" />
+    <Content Include="Admin\css\bootstrap.css" />
+    <Content Include="Admin\css\carousel.css" />
+    <Content Include="Admin\css\css.css" />
+    <Content Include="Admin\css\demos.css" />
+    <Content Include="Admin\css\index.css" />
+    <Content Include="Admin\css\jquery.ui.all.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\Test.aspx" />
+    <Content Include="Admin\UserManages.aspx" />
+    <Content Include="Admin\WeiBoManage.aspx" />
+    <Content Include="error.html" />
+    <Content Include="FansManage.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="FocusManage.aspx" />
+    <Content Include="guaifan.html" />
+    <Content Include="help.html" />
+    <Content Include="Images\128x128 %281635%29.png" />
+    <Content Include="Images\256x256 %28163%29.png" />
+    <Content Include="Images\apple.png" />
+    <Content Include="Images\banner.jpg" />
+    <Content Include="Images\bck.jpg" />
+    <Content Include="Images\bg-900.png" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bg_2.PNG" />
+    <Content Include="Images\bg_3.PNG" />
+    <Content Include="Images\border-img.png" />
+    <Content Include="Images\calendar.png" />
+    <Content Include="Images\checkmark.png" />
+    <Content Include="Images\color-apple.png" />
+    <Content Include="Images\disney_dax_pink_17.png" />
+    <Content Include="Images\e-mail.png" />
+    <Content Include="Images\edit01.png" />
+    <Content Include="Images\edit02.png" />
+    <Content Include="Images\edit03.png" />
+    <Content Include="Images\email_opened.png" />
+    <Content Include="Images\email_unopen.png" />
+    <Content Include="Images\error.png" />
+    <Content Include="Images\eyelogo.jpeg" />
+    <Content Include="Images\favsImg.png" />
+    <Content Include="Images\flowerlogo - 副本.jpg" />
+    <Content Include="Images\flowerlogo.jpg" />
+    <Content Include="Images\flowerpic.png" />
+    <Content Include="Images\grass.png" />
+    <Content Include="Images\help.png" />
+    <Content Include="Images\hytclogo.jpg" />
+    <Content Include="Images\ice.png" />
+    <Content Include="Images\juan_04.png" />
+    <Content Include="Images\loginpic.PNG" />
+    <Content Include="Images\loginpic2.PNG" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\mistletoe.png" />
+    <Content Include="Images\note.png" />
+    <Content Include="Images\passort_09.png" />
+    <Content Include="Images\photos.png" />
+    <Content Include="Images\pic.jpg" />
+    <Content Include="Images\png-0067.png" />
+    <Content Include="Images\png-0081.png" />
+    <Content Include="Images\png-0395.png" />
+    <Content Include="Images\pubImg.PNG" />
+    <Content Include="Images\purple-mushroom.png" />
+    <Content Include="Images\pyramid_power.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\search02.png" />
+    <Content Include="Images\secure-payment.png" />
+    <Content Include="Images\sex_female.png" />
+    <Content Include="Images\sex_male.png" />
+    <Content Include="Images\snowflake.png" />
+    <Content Include="Images\star.png" />
+    <Content Include="Images\talk01.png" />
+    <Content Include="Images\talk02.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="MainForm.aspx" />
+    <Content Include="Messages.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="RegisterSuccess.html" />
+    <Content Include="ReviewList.aspx" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\libs\css3-mediaqueries.js" />
+    <Content Include="Scripts\libs\html5shiv.js" />
+    <Content Include="Scripts\libs\ie-css3.htc" />
+    <Content Include="Scripts\libs\jquery\jquery-2.1.0.min.js" />
+    <Content Include="Scripts\libs\jquery\jquery.easing.1.3.js" />
+    <Content Include="Scripts\libs\TweenMax.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\mainForm.js" />
+    <Content Include="Scripts\weibo.js" />
+    <Content Include="Styles\common.css" />
+    <Content Include="Styles\login.css" />
+    <Content Include="Styles\mainForm.css" />
+    <Content Include="Styles\register.css" />
+    <Content Include="Styles\weibo.css" />
+    <Content Include="upload\logoimg\logoimgdf1.png" />
+    <Content Include="upload\logoimg\logoimgdf2.png" />
+    <Content Include="UserFavorites.aspx" />
+    <Content Include="UserFavweibo.aspx" />
+    <Content Include="UserInfo.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WeiBoList.aspx" />
+    <Content Include="WeiBoManage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdLogin.aspx.cs">
+      <DependentUpon>AdLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdLogin.aspx.designer.cs">
+      <DependentUpon>AdLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdMainForm.aspx.cs">
+      <DependentUpon>AdMainForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdMainForm.aspx.designer.cs">
+      <DependentUpon>AdMainForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Charts.aspx.cs">
+      <DependentUpon>Charts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Charts.aspx.designer.cs">
+      <DependentUpon>Charts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserManages.aspx.cs">
+      <DependentUpon>UserManages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserManages.aspx.designer.cs">
+      <DependentUpon>UserManages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\WeiBoManage.aspx.cs">
+      <DependentUpon>WeiBoManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\WeiBoManage.aspx.designer.cs">
+      <DependentUpon>WeiBoManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FansManage.aspx.cs">
+      <DependentUpon>FansManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FansManage.aspx.designer.cs">
+      <DependentUpon>FansManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FocusManage.aspx.cs">
+      <DependentUpon>FocusManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FocusManage.aspx.designer.cs">
+      <DependentUpon>FocusManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.aspx.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainForm.aspx.designer.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.aspx.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Messages.aspx.designer.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewList.aspx.cs">
+      <DependentUpon>ReviewList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewList.aspx.designer.cs">
+      <DependentUpon>ReviewList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserFavorites.aspx.cs">
+      <DependentUpon>UserFavorites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserFavorites.aspx.designer.cs">
+      <DependentUpon>UserFavorites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserFavweibo.aspx.cs">
+      <DependentUpon>UserFavweibo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserFavweibo.aspx.designer.cs">
+      <DependentUpon>UserFavweibo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.aspx.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfo.aspx.designer.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeiBoList.aspx.cs">
+      <DependentUpon>WeiBoList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeiBoList.aspx.designer.cs">
+      <DependentUpon>WeiBoList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeiBoManage.aspx.cs">
+      <DependentUpon>WeiBoManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeiBoManage.aspx.designer.cs">
+      <DependentUpon>WeiBoManage.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Styles\common.less" />
+    <None Include="Styles\login.less" />
+    <None Include="Styles\mainForm.less" />
+    <None Include="Styles\register.less" />
+    <None Include="Styles\weibo.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HYTCWeiBo.BLL\HYTCWeiBo.BLL.csproj">
+      <Project>{C8C99AE2-E290-4DEE-A1FF-2BF649151794}</Project>
+      <Name>HYTCWeiBo.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYTCWeiBo.Model\HYTCWeiBo.Model.csproj">
+      <Project>{8C9CC24E-730B-48CF-B9BE-A17936DF2B0F}</Project>
+      <Name>HYTCWeiBo.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1980</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

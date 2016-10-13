@@ -1,0 +1,9 @@
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.DBtility\bin\Debug\HYTCWeiBo.DBtility.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.DBtility\bin\Debug\HYTCWeiBo.DBtility.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.DBtility\obj\Debug\HYTCWeiBo.DBtility.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.DBtility\obj\Debug\HYTCWeiBo.DBtility.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.DBtility\obj\Debug\HYTCWeiBo.DBtility.csprojResolveAssemblyReference.cache
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.DBtility\bin\Debug\HYTCWeiBo.DBtility.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.DBtility\bin\Debug\HYTCWeiBo.DBtility.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.DBtility\obj\Debug\HYTCWeiBo.DBtility.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo _2\HYTCWeiBo.DBtility\obj\Debug\HYTCWeiBo.DBtility.pdb

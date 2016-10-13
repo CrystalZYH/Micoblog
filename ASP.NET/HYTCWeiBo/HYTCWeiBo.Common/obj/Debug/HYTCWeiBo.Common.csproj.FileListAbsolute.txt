@@ -1,0 +1,4 @@
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.Common\bin\Debug\HYTCWeiBo.Common.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.Common\bin\Debug\HYTCWeiBo.Common.pdb
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.Common\obj\Debug\HYTCWeiBo.Common.dll
+C:\Users\ZYH\Desktop\HYTCWeiBo\HYTCWeiBo.Common\obj\Debug\HYTCWeiBo.Common.pdb
