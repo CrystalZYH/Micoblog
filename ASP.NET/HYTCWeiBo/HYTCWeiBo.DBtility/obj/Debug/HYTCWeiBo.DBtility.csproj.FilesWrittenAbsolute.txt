@@ -1,0 +1,7 @@
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.DBtility/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.DBtility/bin/Debug/HYTCWeiBo.DBtility.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.DBtility/bin/Debug/HYTCWeiBo.DBtility.pdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.DBtility/bin/Debug/HYTCWeiBo.DBtility.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.DBtility/obj/Debug/HYTCWeiBo.DBtility.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.DBtility/obj/Debug/HYTCWeiBo.DBtility.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.DBtility/obj/Debug/HYTCWeiBo.DBtility.pdb

@@ -1,0 +1,16 @@
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.BLL.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.BLL.pdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.BLL.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/obj/Debug/HYTCWeiBo.BLL.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/obj/Debug/HYTCWeiBo.BLL.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/obj/Debug/HYTCWeiBo.BLL.pdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.DAL.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.DAL.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.DAL.pdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.Model.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.Model.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.Model.pdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.DBtility.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.DBtility.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.BLL/bin/Debug/HYTCWeiBo.DBtility.pdb

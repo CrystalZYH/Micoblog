@@ -1,0 +1,7 @@
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.Model/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.Model/bin/Debug/HYTCWeiBo.Model.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.Model/bin/Debug/HYTCWeiBo.Model.pdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.Model/bin/Debug/HYTCWeiBo.Model.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.Model/obj/Debug/HYTCWeiBo.Model.dll
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.Model/obj/Debug/HYTCWeiBo.Model.dll.mdb
+/Users/mac/IT/GitHub/Microblog/ASP.NET/HYTCWeiBo/HYTCWeiBo.Model/obj/Debug/HYTCWeiBo.Model.pdb
